@@ -2,8 +2,6 @@
   (:require [reagent.core :as reagent :refer [atom]]
             [reagent.ratom :refer [reaction run!]]))
 
-(enable-console-print!)
-
 (def people ["Aladar" "Bela" "Cecil" "Dezso" "Elemer" "Ferenc" "Geza" "Hedvig" "Ida" "Janos" "Katalin" "Luca" "Marta" "Nora" "Orsolya" "Peter" "Q?" "Rita" "Sara" "Tamas" "Ubul" "Viktor" "W?" "Zoltan"])
 
 (defonce people-count (atom 6))
